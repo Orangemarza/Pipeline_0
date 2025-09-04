@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: AP1824276011838
+  vmImage: default
 
 steps:
 - task: PowerShell@2
