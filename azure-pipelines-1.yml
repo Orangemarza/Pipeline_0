@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'Test'
+  name: 'Test'
 
 steps:
 - task: PowerShell@2
